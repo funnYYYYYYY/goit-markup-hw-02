@@ -8,44 +8,55 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <a href="">WebStudio</a>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+    <header class="header">
+      <a class="header-logo" href="">WebStudio</a>
+      <nav class="header-nav">
+        <ul class="header-menu">
+          <li class="header-list"><a class="header-item" href="">Студия</a></li>
+          <li class="header-list">
+            <a class="header-item" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="header-list">
+            <a class="header-item" href="">Контакты</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111"></a>+38 096 111 11 11</li>
+      <ul class="header-contacts">
+        <li class="header-contact">
+          <a class="header-mail" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li clss="header-contacts">
+          <a class="header-phone" href="tel:+380961111111"></a>+38 096 111 11 11
+        </li>
       </ul>
     </header>
     <!-- Main -->
-    <main>
+    <main class="main">
       <!-- Button -->
-      <h1 class="" hidden></h1>
-      <ul>
-        <li>
+      <section class="main-nav"></section>
+      <h1 class="gps-button" hidden></h1>
+      <ul class="gps-menu">
+        <li class="gps-type">
           <a href=""><button type="button">Все</button></a>
-        </li>
+        </li class="gps-type">
         <li>
           <a href=""><button type="button">Веб-сайты</button></a>
         </li>
-        <li>
+        <li class="main-type">
           <a href=""><button type="button">Приложения</button></a>
         </li>
-        <li>
+        <li class="main-type">
           <a href=""><button type="button">Дизайн</button></a>
         </li>
-        <li>
+        <li class="main-type">
           <a href=""><button type="button">Маркетинг</button></a>
         </li>
       </ul>
       <!-- Наши разработки -->
       <h2 hidden>Наши разработки</h2>
-      <ul>
+      <ul class="">
         <li>
           <img
             src="./images/noytbyk-1.jpg"
@@ -139,16 +150,26 @@
       </ul>
     </main>
     <!-- Footer -->
-    <footer>
-      <h2>WebStudio</h2>
+    <footer class="information">
+      <h2 class="information-logo">WebStudio</h2>
       <address>
-        <ul>
-          <li>
-            <a href="https://goo.gl/maps/JRwkvSi4zXC3icFQ9" target="_blank"></a
+        <ul class="information-more">
+          <li class="information-available">
+            <a
+              class="information-address"
+              href="https://goo.gl/maps/JRwkvSi4zXC3icFQ9"
+              target="_blank"
+            ></a
             >г. Киев, пр-т Леси Украинки, 26
           </li>
-          <li><a href="mailto:info@example.com"></a>info@example.com</li>
-          <li><a href="tel:+380991111111"></a>+38 099 111 11 11</li>
+          <li class="information-available">
+            <a class="information-mail" href="mailto:info@example.com"></a
+            >info@example.com
+          </li>
+          <li class="information-available">
+            <a class="information-number" href="tel:+380991111111"></a>+38 099
+            111 11 11
+          </li>
         </ul>
       </address>
     </footer>
