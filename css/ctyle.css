@@ -1,14 +1,3 @@
-/* беграунд колір #FFFFFF
-rgba(47, 48, 58, 1) - другтй беграунд
-Основний колір тексту rgba(117, 117, 117, 1) 
-Другорядний колір тексту rgba(33, 33, 33, 1)
-Колір тексту в Футері і Хедері 
-rgba(255, 255, 255, 1)
-rgba(255, 255, 255, 0.6)
-Акцент 
-rgba(33, 150, 243, 1)
-*/
-
 :root {
   --background-color: #ffffff;
   --second-background-color: rgba(47, 48, 58, 1);
@@ -35,16 +24,78 @@ a {
 
 /* Header */
 
-.header-logo .logo {
-  color: var(--accent-text-color)
+.logo {
+  color: var(--accent-text-color);
 }
 
-.header .header-logo {
-  color: rgba(0, 0, 0, 1);
+.header-logo {
+  color: var(--second-text-color);
 }
 
 .header-list {
   color: var(--accent-text-color);
 }
 
-/* .header-list:hover,:focus */
+.header-items {
+  color: var(--accent-text-color);
+}
+
+.header-item {
+  color: var(--second-text-color);
+}
+
+.header-item:hover, .header-item:focus {
+  color: var(--accent-text-color);
+}
+
+/* Section 1 */
+
+.primary-title {
+  color: var(--other-text-color);
+}
+
+.primary-btn {
+  color: var(--other-text-color);
+  background-color: var(--accent-text-color);
+  }
+
+  /* Section 2 */
+
+
+.benefits-company {
+  color: var(--second-text-color);
+}
+
+.benefits-description {
+  color: var(--primary-text-color);
+}
+
+/* section 3 */
+
+.product-our, .about-team {
+  color: var(--second-text-color);
+}
+
+/* Section 4 */
+
+.about-name {
+  color: var(--second-text-color);
+}
+
+.about-position {
+  color: var(--primary-text-color);
+}
+
+/* Footer */
+
+.information-logo {
+  color: var(--other-text-color);
+}
+
+.informations-mail {
+  color: var(--other-text-color);
+}
+
+.informations-mail {
+  color: var(--others-text-color);
+}
