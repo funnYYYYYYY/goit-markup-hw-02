@@ -92,10 +92,14 @@ a {
   color: var(--other-text-color);
 }
 
-.informations-mail {
+.informations-address {
   color: var(--other-text-color);
 }
 
 .informations-mail {
+  color: var(--other-text-color);
+}
+
+.informations-number {
   color: var(--others-text-color);
 }
