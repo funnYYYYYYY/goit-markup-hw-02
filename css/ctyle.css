@@ -36,15 +36,19 @@ a {
   color: var(--accent-text-color);
 }
 
-.header-items {
-  color: var(--accent-text-color);
-}
-
 .header-item {
   color: var(--second-text-color);
 }
 
 .header-item:hover, .header-item:focus {
+  color: var(--accent-text-color);
+}
+
+.header-right {
+  color: vat(--primary-text-color);
+}
+
+.header-right:hover, .header-right:focus {
   color: var(--accent-text-color);
 }
 
@@ -86,7 +90,33 @@ a {
   color: var(--primary-text-color);
 }
 
+/* Portfolio */
+
+.main-button {
+  color: var(--second-text-color);
+}
+
+.main-button:hover, .main-button:focus {
+  color: var(--accent-text-color);
+}
+
+.product-text {
+  color: var(--second-text-color)
+}
+
+.product-description {
+  color: var(--primary-text-color)
+}
+
 /* Footer */
+
+.main-type:hover, .main-type:focus {
+  color: var (--accent-text-color);
+}
+
+.informations {
+  text-decoration: none;
+}
 
 .information-logo {
   color: var(--other-text-color);
@@ -97,7 +127,7 @@ a {
 }
 
 .informations-mail {
-  color: var(--other-text-color);
+  color: var(--others-text-color);
 }
 
 .informations-number {
