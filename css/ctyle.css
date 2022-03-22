@@ -40,12 +40,16 @@ a {
   color: var(--second-text-color);
 }
 
+.header-menu .header-item.current {
+  color: var(--accent-text-color);
+}
+
 .header-item:hover, .header-item:focus {
   color: var(--accent-text-color);
 }
 
 .header-right {
-  color: vat(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 .header-right:hover, .header-right:focus {
@@ -58,9 +62,10 @@ a {
   color: var(--other-text-color);
 }
 
-.primary-btn {
+.primary-btn:hover, .primary-btn:active {
   color: var(--other-text-color);
   background-color: var(--accent-text-color);
+  }
   }
 
   /* Section 2 */
@@ -105,7 +110,7 @@ a {
 }
 
 .product-description {
-  color: var(--primary-text-color)
+  color: var(--primary-text-color);
 }
 
 /* Footer */
