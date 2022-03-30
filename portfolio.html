@@ -11,57 +11,58 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <!-- Header -->
-    <header class="header">
-      <a class="header-logo" href=""><span class="logo">Web</span>Studio</a>
-      <nav class="header-nav">
-        <ul class="header-menu list">
-          <li class="header-list"><a class="header-item" href="./index.html">Студия</a></li>
-          <li class="header-list">
-            <a class="header-item current" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="header-list">
-            <a class="header-item" href="">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="header-contacts list">
-        <li class="header-contact">
-          <a class="header-other-nav list" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
+  <!-- Header -->
+  <header class="header">
+    <a class="header-logo link" lang="en" href=""><span class="logo">Web</span>Studio</a>
+    <nav class="nav-menu">
+      <ul class="nav-list list">
+        <li class="nav-item">
+          <a class="nav-link link" href="./index.html">Студия</a>
         </li>
-        <li class="header-contacts">
-          <a class="header-other-nav list" href="tel:+380961111111">+38 096 111 11 11</a>
+        <li class="nav-item">
+          <a class="nav-link link current " href="">Портфолио</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link" href="">Контакты</a>
         </li>
       </ul>
-    </header>
+    </nav>
+    <ul class="nav-list list">
+      <li class="nav-item">
+        <a class="header-other-nav link" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="header-other-nav link" href="tel:+380961111111">+38 096 111 11 11</a>
+      </li>
+    </ul>
     <!-- Main -->
-    <main class="main">
+    <main>
       <!-- Button -->
       <section class="main-nav">
-      <h1 class="gps-button" hidden></h1>
-      <ul class="gps-menu list">
-        <li class="main-type">
-          <a class="main-button" href=""><button class="button current-button" type="button">Все</button></a>
-        </li class="gps-type">
+      <h1 class="filtr-list" hidden></h1>
+      <ul class="filtr-menu list">
+        <li class="filtr-item">
+          <a class="filtr-button" href=""><button class="button current-button" type="button">Все</button></a>
+        </li class="filtr-item">
         <li>
-          <a class="main-button" href=""><button class="button current-button" type="button">Веб-сайты</button></a>
+          <a class="filtr-button" href=""><button class="button current-button" type="button">Веб-сайты</button></a>
         </li>
-        <li class="main-type">
-          <a class="main-button" href=""><button class="button current-button" type="button">Приложения</button></a>
+        <li class="filtr-item">
+          <a class="filtr-button" href=""><button class="button current-button" type="button">Приложения</button></a>
         </li>
-        <li class="main-type">
-          <a class="main-button" href=""><button class="button current-button" type="button">Дизайн</button></a>
+        <li class="filtr-item">
+          <a class="filtr-button" href=""><button class="button current-button" type="button">Дизайн</button></a>
         </li>
-        <li class="main-type">
-          <a class="main-button" href=""><button class="button current-button" type="button">Маркетинг</button></a>
+        <li class="filtr-item">
+          <a class="filtr-button" href=""><button class="button current-button" type="button">Маркетинг</button></a>
         </li>
       </ul>
       </section>
       <!-- Наши разработки -->
       <section class="product">
-      <h2 hidden>Наши разработки</h2>
+        <!-- <h2 hidden>Наши разработки</h2> ЧОМУ НЕ ПОТРІБЕН ЦЕЙ ЗАГОЛОВОК ТУТ? -->
       <ul class="product-development list">
         <li class="main-informations">
           <img
@@ -70,7 +71,7 @@
             width="370"
             height="294"
           />
-          <h3 class="product-text">Технокряк</h3>
+          <h2 class="product-text">Технокряк</h2>
           <p class="product-description">Веб-сайт</p>
         </li>
         <li class="product-informations">
@@ -80,7 +81,7 @@
             width="370"
             height="294"
           />
-          <h3 class="product-text" lang="en">Постер New Orlean vs Golden Star</h3>
+          <h2 class="product-text">Постер <span lang="en"> New Orlean vs Golden Star</span></h2>
           <p class="product-description">Дизайн</p>
         </li>
         <li class="product-informations">
@@ -90,7 +91,7 @@
             width="370"
             height="294"
           />
-          <h3 class="product-text" lang="en">Ресторан Seafood</h3>
+          <h2 class="product-text">Ресторан <span lang="en">Seafood</span></h2>
           <p class="product-description">Приложение</p>
         </li>
         <li>
@@ -100,7 +101,7 @@
             width="370"
             height="294"
           />
-          <h3 class="product-text" lang="en">Проект Prime</h3>
+          <h2 class="product-text">Проект <span lang="en">Prime</span></h2>
           <p class="product-description">Маркетинг</p>
         </li>
         <li class="product-informations">
@@ -110,7 +111,7 @@
             width="370"
             height="294"
           />
-          <h3 class="product-text">Проект Boxes</h3>
+          <h2 class="product-text">Проект <span lang="en">Boxes</span></h2>
           <p class="product-description">Приложение</p>
         </li>
         <li class="product-informations">
@@ -120,7 +121,7 @@
             width="370"
             height="294"
           />
-          <h3 class="product-text" lang="en">Inspiration has no Borders</h3>
+          <h2 class="product-text" lang="en">Inspiration has no Borders</h2>
           <p class="product-description">Веб-сайт</p>
         </li>
         <li>
@@ -130,7 +131,7 @@
             width="370"
             height="294"
           />
-          <h3 class="product-text" lang="en">Издание Limited Edition</h3>
+          <h2 class="product-text">Издание <span lang="en">Limited Edition</span></h2>
           <p class="product-description">Дизайн</p>
         </li>
         <li>
@@ -140,7 +141,7 @@
             width="370"
             height="294"
           />
-          <h3 class="product-text" lang="en">Проект LAB</h3>
+          <h2 class="product-text">Проект <span lang="en">LAB</span></h2>
           <p class="product-description">Маркетинг</p>
         </li>
         <li>
@@ -150,7 +151,7 @@
             width="370"
             height="294"
           />
-          <h3 class="product-text" lang="en">Growing Business</h3>
+          <h2 class="product-text" lang="en">Growing Business</h2>
           <p class="product-description">Приложение</p>
         </li>
       </ul>
@@ -158,23 +159,23 @@
     </main>
     <!-- Footer -->
     <footer class="information">
-      <h2 class="information-logo"><span class="logo">Web</span>Studio</h2>
+      <h2 class="information-logo"><span class="logo" lang="en">Web</span>Studio</h2>
       <address class="informations">
         <ul class="informations-more list">
           <li class="informations-available">
             <a
-              class="informations-address footer-accent-color list"
+              class="informations-address footer-accent-color link"
               href="https://goo.gl/maps/JRwkvSi4zXC3icFQ9"
               target="_blank"
             >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
           <li class="informations-available">
-            <a class="informations-mail footer-accent-color list" href="mailto:info@example.com">info@example.com</a
+            <a class="informations-mail footer-accent-color link" href="mailto:info@example.com">info@example.com</a
             >
           </li>
           <li class="informations-available">
-            <a class="informations-number footer-accent-color list" href="tel:+380991111111">+38 099
+            <a class="informations-number footer-accent-color link" href="tel:+380991111111">+38 099
               111 11 11</a>
           </li>
         </ul>
