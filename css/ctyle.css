@@ -1,11 +1,11 @@
 :root {
   --background-color: #ffffff;
-  --second-background-color: #2F303A;
+  --second-background-color: #2f303a;
   --primary-text-color: #757575;
   --second-text-color: rgba(33, 33, 33, 1);
   --others-text-color: rgba(255, 255, 255, 0.6);
-  --other-text-color: #FFFFFF;
-  --accent-text-color: #2196F3;
+  --other-text-color: #ffffff;
+  --accent-text-color: #2196f3;
 }
 
 body {
@@ -57,12 +57,24 @@ body {
 }
 
 .header-other-nav {
-  color:var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 .current {
   color: var(--accent-text-color);
 }
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 
 /* Button */
 
@@ -79,7 +91,7 @@ body {
 
 .button:hover,
 .button:focus {
-  color:#ffffff;
+  color: #ffffff;
   background-color: var(--accent-text-color);
 }
 
@@ -104,6 +116,10 @@ body {
 }
 
 .primary-btn {
+  background-color: #2196f3;
+  color: var(--other-text-color);
+  cursor: pointer;
+  border: none;
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
@@ -112,7 +128,7 @@ body {
 .primary-btn:hover,
 .primary-btn:focus {
   color: var(--other-text-color);
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 /* Section 2 */
@@ -120,6 +136,7 @@ body {
 .benefits-company {
   color: var(--second-text-color);
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -205,6 +222,8 @@ body {
   color: var(--other-text-color);
 }
 
-.informations-mail, .informations-number {
+.informations-mail,
+.informations-number {
   color: var(--others-text-color);
+  font-style: normal;
 }
